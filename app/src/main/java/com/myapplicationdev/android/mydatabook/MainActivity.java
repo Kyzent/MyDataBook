@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                 else if (position == 3) {
                     Intent i = new Intent(MainActivity.this, AboutActivity.class);
                     startActivity(i);
-                    fragment = new AnniversaryFragment();
+                    return;
                 }
 
 
